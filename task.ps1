@@ -17,4 +17,4 @@ foreach ($file in $jsonFiles) {
     }
 }
 
-$availableRegions | ConvertTo-Json | Out-File "$PSScriptRoot/result.json"
+$availableRegions | ConvertTo-Json | Out-File "$PSScriptRoot/../result.json"
